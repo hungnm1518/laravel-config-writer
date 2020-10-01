@@ -22,7 +22,7 @@ composer require "daftspunk/laravel-config-writer"
 Add this to `app/config/app.php` under the 'providers' key:
 
 ```php
-October\Rain\Config\ServiceProvider::class,
+HungNM\LCW\Config\ServiceProvider::class,
 ```
 
 ### Lumen case
@@ -30,7 +30,7 @@ October\Rain\Config\ServiceProvider::class,
 Add this to `bootstrap/app.php` in the 'service providers' section declaration:
 
 ```php
-$app->register(October\Rain\Config\ServiceProvider::class);
+$app->register(HungNM\LCW\Config\ServiceProvider::class);
 ```
 
 ## Usage
@@ -49,7 +49,7 @@ app('config')->write('app.url', 'http://domain.com');
 The `Rewrite` class can be used anywhere.
 
 ```php
-$writeConfig = new October\Rain\Config\DataWriter\Rewrite;
+$writeConfig = new HungNM\LCW\Config\DataWriter\Rewrite;
 $writeConfig->toFile('path/to/config.php', [
     'item' => 'new value',
     'nested.config.item' => 'value',

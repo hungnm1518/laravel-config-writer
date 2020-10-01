@@ -1,8 +1,8 @@
 {
-    "name": "daftspunk/laravel-config-writer",
+    "name": "hungnm1518/laravel-config-writer",
     "description": "Laravel provider to be able to rewrite configuration",
-    "homepage": "http://octobercms.com",
-    "keywords": ["october cms", "october", "laravel", "config", "write", "provider"],
+    "homepage": "https://github.com/hungnm1518",
+    "keywords": ["laravel", "config", "write", "provider"],
     "license": "MIT",
     "authors": [
         {
@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "October\\Rain\\Config\\": "src/"
+            "HungNM\\LCW\\\Config\\": "src/"
         }
     },
     "minimum-stability": "dev",

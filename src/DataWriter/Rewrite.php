@@ -1,6 +1,6 @@
 <?php
 
-namespace October\Rain\Config\DataWriter;
+namespace HungNM\LCW\Config\DataWriter;
 
 use Exception;
 

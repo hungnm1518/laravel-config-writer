@@ -1,10 +1,10 @@
 <?php
 
-namespace October\Rain\Config\DataWriter;
+namespace HungNM\LCW\Config\DataWriter;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 use Illuminate\Filesystem\Filesystem;
-use October\Rain\Config\DataWriter\Rewrite;
+use HungNM\LCW\Config\DataWriter\Rewrite;
 
 class FileWriter
 {
@@ -25,7 +25,7 @@ class FileWriter
     /**
      * The config rewriter object.
      *
-     * @var \October\Rain\Config\DataWriter\Rewrite
+     * @var \HungNM\LCW\Config\DataWriter\Rewrite
      */
     protected $rewriter;
 

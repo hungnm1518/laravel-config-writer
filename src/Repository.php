@@ -1,9 +1,9 @@
 <?php
 
-namespace October\Rain\Config;
+namespace HungNM\LCW\Config;
 
 use Exception;
-use October\Rain\Config\DataWriter\FileWriter;
+use HungNM\LCW\Config\DataWriter\FileWriter;
 use Illuminate\Config\Repository as RepositoryBase;
 
 class Repository extends RepositoryBase
@@ -11,14 +11,14 @@ class Repository extends RepositoryBase
     /**
      * The config rewriter object.
      *
-     * @var October\Rain\Config\FileWriter
+     * @var HungNM\LCW\Config\FileWriter
      */
     protected $writer;
 
     /**
      * Create a new configuration repository.
      *
-     * @param  October\Rain\Config\FileWriter $writer
+     * @param  HungNM\LCW\Config\FileWriter $writer
      * @param  array $items
      * @return void
      */

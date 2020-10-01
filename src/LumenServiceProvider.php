@@ -1,9 +1,9 @@
 <?php
 
-namespace October\Rain\Config;
+namespace HungNM\LCW\Config;
 
 use Laravel\Lumen\Application;
-use October\Rain\Config\ServiceProvider;
+use HungNM\LCW\Config\ServiceProvider;
 
 class LumenServiceProvider extends ServiceProvider
 {

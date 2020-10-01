@@ -1,10 +1,10 @@
 <?php
 
-namespace October\Rain\Config;
+namespace HungNM\LCW\Config;
 
-use October\Rain\Config\Repository;
+use HungNM\LCW\Config\Repository;
 use Illuminate\Filesystem\Filesystem;
-use October\Rain\Config\DataWriter\FileWriter;
+use HungNM\LCW\Config\DataWriter\FileWriter;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 class ServiceProvider extends BaseServiceProvider

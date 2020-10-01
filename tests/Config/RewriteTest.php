@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use October\Rain\Config\DataWriter\Rewrite;
+use HungNM\LCW\Config\DataWriter\Rewrite;
 
 class RewriteTest extends TestCase
 {
