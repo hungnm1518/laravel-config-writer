@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "HungNM\\LCW\\\Config\\": "src/"
+            "HungNM\\LCW\\Config\\": "src/"
         }
     },
     "minimum-stability": "dev",
