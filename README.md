@@ -10,13 +10,13 @@ The following value types are supported for writing: strings, integers, booleans
 
 ## Support
 
-This provider is designed to be used in Laravel from `5.4` version.
+This provider is designed to be used in Laravel from `5.4` to `8.*` version.
 
 ## Setup
 
 Install through composer:
 ```
-composer require "daftspunk/laravel-config-writer"
+composer require "hungnm144/laravel-config-writer"
 ```
 
 Add this to `app/config/app.php` under the 'providers' key:
